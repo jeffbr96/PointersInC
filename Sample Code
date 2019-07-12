@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main (void){
+    int count = 10, x;
+    int *intptr;
+    
+    intptr = &count;
+    x = *intptr;
+    
+    printf("intptr = %i\n", *intptr);
+    printf("count = %i, x = %i\n", count, x);
+    return 0;
+}
